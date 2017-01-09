@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boder"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/img_shop_background" >
+        <com.meg7.widget.CustomShapeImageView
+            android:id="@+id/sell_shop_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/managment_my_heade"
+            app:shape="circle" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/sell_shop_head" >
+
+            <TextView
+                android:id="@+id/sell_shop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sell_shop_name"
+                android:textColor="@color/icons"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/sell_shop_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/sell_shop_rate"
+                android:textColor="@color/icons" />
+
+            <TextView
+                android:id="@+id/sell_shop_rate_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/sell_shop_rate"
+                android:text="@string/sell_shop_rate_num"
+                android:textColor="@color/price_color" />
+
+            <TextView
+                android:id="@+id/sell_shop_create_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="2dp"
+                android:text="@string/sell_shop_create_num"
+                android:textColor="@color/icons" />
+
+            <TextView
+                android:id="@+id/sell_shop_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_toStartOf="@+id/sell_shop_create_num"
+                android:text="@string/sell_shop_create"
+                android:textColor="@color/icons" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/divider" >
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/sell_shop_admin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/sell_shop_goods"
+            style="@style/sell_shop_linelayout" >
+
+            <ImageView
+                style="@style/sell_shop_img"
+                android:contentDescription="@string/sell_shop_goods"
+                android:src="@drawable/sell_goods" />
+
+            <TextView
+                style="@style/sell_shop_text"
+                android:text="@string/sell_shop_goods" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sell_shop_orders"
+            style="@style/sell_shop_linelayout" >
+
+            <ImageView
+                style="@style/sell_shop_img"
+                android:contentDescription="@string/sell_shop_orders"
+                android:src="@drawable/sell_orders" />
+
+            <TextView
+                style="@style/sell_shop_text"
+                android:text="@string/sell_shop_orders" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sell_shop_logistical"
+            style="@style/sell_shop_linelayout" >
+
+            <ImageView
+                style="@style/sell_shop_img"
+                android:contentDescription="@string/sell_shop_logistical"
+                android:src="@drawable/sell_logistical" />
+
+            <TextView
+                style="@style/sell_shop_text"
+                android:text="@string/sell_shop_logistical" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/sell_shop_set"
+            style="@style/sell_shop_linelayout" >
+
+            <ImageView
+                style="@style/sell_shop_img"
+                android:contentDescription="@string/sell_shop_set"
+                android:src="@drawable/sell_set" />
+
+            <TextView
+                style="@style/sell_shop_text"
+                android:text="@string/sell_shop_set" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/sell_shop_message"
+            style="@style/sell_shop_linelayout" >
+
+            <ImageView
+                style="@style/sell_shop_img"
+                android:contentDescription="@string/sell_shop_message"
+                android:src="@drawable/sell_message" />
+
+            <TextView
+                style="@style/sell_shop_text"
+                android:text="@string/sell_shop_message" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sell_shop_support"
+            style="@style/sell_shop_linelayout" >
+
+            <ImageView
+                style="@style/sell_shop_img"
+                android:contentDescription="@string/sell_shop_support"
+                android:src="@drawable/sell_support" />
+
+            <TextView
+                style="@style/sell_shop_text"
+                android:text="@string/sell_shop_support" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sell_shop_purchaser"
+            style="@style/sell_shop_linelayout" >
+
+            <ImageView
+                style="@style/sell_shop_img"
+                android:contentDescription="@string/sell_shop_purchaser"
+                android:src="@drawable/sell_purchaser" />
+
+            <TextView
+                style="@style/sell_shop_text"
+                android:text="@string/sell_shop_purchaser" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sell_shop_bullish"
+            style="@style/sell_shop_linelayout" >
+
+            <ImageView
+                style="@style/sell_shop_img"
+                android:contentDescription="@string/sell_shop_bullish"
+                android:src="@drawable/sell_bullish" />
+
+            <TextView
+                style="@style/sell_shop_text"
+                android:text="@string/sell_shop_bullish" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/divider" >
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/sell_shop_count" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout style="@style/sell_shop_linelayout" >
+
+            <TextView
+                style="@style/sell_shop_count_txt1"
+                android:text="@string/sell_shop_count_goods" />
+
+            <TextView
+                style="@style/sell_shop_count_txt2"
+                android:text="@string/sell_shop_count_goods_num" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/sell_shop_linelayout" >
+
+            <TextView
+                style="@style/sell_shop_count_txt1"
+                android:text="@string/sell_shop_count_buy" />
+
+            <TextView
+                style="@style/sell_shop_count_txt2"
+                android:text="@string/sell_shop_count_buy_num" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/sell_shop_linelayout" >
+
+            <TextView
+                style="@style/sell_shop_count_txt1"
+                android:text="@string/sell_shop_count_customer" />
+
+            <TextView
+                style="@style/sell_shop_count_txt2"
+                android:text="@string/sell_shop_count_customer_num" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sell_shop_btn_send"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_btn_press_selector_1"
+        android:text="@string/sell_shop_btn_send" />
+
+</LinearLayout>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boder"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@color/primary" >
+
+            <LinearLayout
+                android:id="@+id/managment_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical" >
+
+                <com.meg7.widget.CustomShapeImageView
+                    android:id="@+id/management_img_head"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/managment_my_heade"
+                    app:shape="circle" />
+
+                <TextView
+                    android:id="@+id/managment_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:text="@string/management_usernaem"
+                    android:textColor="@color/icons"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="35dp"
+                android:layout_toEndOf="@+id/managment_login"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/menagment_edit"
+                android:gravity="center"
+                android:text="@string/management_img_btn_edit"
+                android:textColor="@color/icons"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="35dp"
+                android:layout_toStartOf="@+id/managment_login"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/menagment_mycard"
+                android:gravity="center"
+                android:text="@string/management_img_btn_card"
+                android:textColor="@color/icons"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/managment_item_balance"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_balance_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_balance_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_balance_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_balance_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_balance_name"
+                    android:layout_toStartOf="@+id/managment_item_balance_img"
+                    android:text="@string/management_item_balance_info" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/managment_item_plastic"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_plastic_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_plastic_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_plastic_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_plastic_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_plastic_name"
+                    android:layout_toStartOf="@+id/managment_item_plastic_img" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/managment_item_ncetification"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_ncetification_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_ncetification_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_ncetification_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_ncetification_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_ncetification_name"
+                    android:layout_toStartOf="@+id/managment_item_ncetification_img" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/managment_item_ccetification"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_ccetification_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_ccetification_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_ccetification_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_ccetification_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_ccetification_name"
+                    android:layout_toStartOf="@+id/managment_item_ccetification_img" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_space_big"
+            android:background="@color/divider" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/managment_item_collection"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_collection_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_collection_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_collection_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_collection_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_collection_name"
+                    android:layout_toStartOf="@+id/managment_item_collection_img"
+                    android:text="@string/management_item_collection_info" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/managment_item_orders"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_orders_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_orders_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_orders_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_orders_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_orders_name"
+                    android:layout_toStartOf="@+id/managment_item_orders_img" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/managment_item_address"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_address_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_address_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_address_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_address_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_address_name"
+                    android:layout_toStartOf="@+id/managment_item_address_img" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/managment_item_appraise"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_appraise_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_ccetification_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_appraise_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_appraise_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_appraise_name"
+                    android:layout_toStartOf="@+id/managment_item_appraise_img" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_space_big"
+            android:background="@color/divider" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/managment_item_help"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_help_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_help_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_help_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_help_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_help_name"
+                    android:layout_toStartOf="@+id/managment_item_help_img" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/managment_item_phone"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_phone_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_phone_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_phone_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_phone_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_phone_name"
+                    android:layout_toStartOf="@+id/managment_item_phone_img"
+                    android:text="@string/management_item_phone_info" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/managment_item_feedback"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_feedback_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_feedback_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_feedback_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_feedback_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_feedback_name"
+                    android:layout_toStartOf="@+id/managment_item_feedback_img" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/managment_item_abaout"
+                style="@style/managment_item" >
+
+                <TextView
+                    android:id="@+id/managment_item_abaout_name"
+                    style="@style/managment_item_name"
+                    android:text="@string/management_item_about_name" />
+
+                <ImageView
+                    android:id="@+id/managment_item_abaout_img"
+                    style="@style/managment_item_img"
+                    android:contentDescription="@string/management_item_img" />
+
+                <TextView
+                    android:id="@+id/managment_item_abaout_info"
+                    style="@style/managment_item_info"
+                    android:layout_toEndOf="@+id/managment_item_abaout_name"
+                    android:layout_toStartOf="@+id/managment_item_abaout_img" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_space"
+            android:background="@color/divider" >
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/management_btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_btn_press_selector_1"
+            android:text="@string/management_btn_exit"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+目录结构---
+		androidimagepicker --- 图片选择
+
+		base-adapter-library --- listview GridView ....中item的万能适配器 
+
+		customShapeImageView --- 自定义图片形状 
+
+		mushroom --- 主程序 
+
+		ptr-lib ---下拉刷新、上拉加载 
+
+		zxingLib ---二维码扫描
+
+
+	mushroom---
+		activity ---
+			fragment ---(主程序的五个界面)
+				BuyFragment ---(我要买)
+				FindFragment ---(发现)
+				ManageFragment ---(我)
+				OriginFragment ---(溯源)
+				SellFragment ---(我要卖)
+			FindPassActivity ---(密码找回)
+			ImgCacheManger ---(将选择的图片进行压缩并保存到手机本地)
+			LoginActivity ---(登录模块)
+			MainACtivity ---(主界面，主界面是由 ViewPage + Fragment 来实现界面左右滑动，此界面无业务逻辑的实现)
+			OrderConfirmActivity ---(订单确定，点击购买后跳转到此界面进行 收货地址 购买数量的填写，点击 提交订单 后 进行支付)
+			ProductInfoActivity ---(商品的详细界面)
+			RegisterActivity ---(注册界面)
+			SellAddActivity ---(添加商品界面)
+			SplashActivity ---(程序启动时的欢迎界面)
+		bean---
+			Favorites ---(收藏 userId 与 prodId 相关联 确定 某用户收藏了某商品) 在Bmob云端有对应的表
+			MyUser ---(用户) 在Bmob云端有对应的表
+			OriginInfo ---(二维码 扫描结果信息)
+			Product ---(商品) 在Bmob云端有对应的表
+			ProductImg ---(商品详情界面 最后的图片显示 主要是为了使用 base-adapter而创建)
+		common---
+			BaseActivity ---(基类 BmobAppId 在此类下初始化)
+			BaseFragment ---(基类)
+			Constants ---(常量 BmobAppId 在此类中)
+			MyAppliction ---(用来构造一个全局的 context   MyAppliction.getContext() )
+		data---
+			BmobUtil ---(Bmob的下载图片 以及 查询)
+			OriginfoHandel --- (处理二维码的扫描出的字符串)
+			ZipImg ---(图片压缩类)
+		ui---
+			citypicter ---(省 市 县 三级地址选择器)
+			FlyTxtView ---(自定义view 文字飞入效果)
+			MyGridView ---(自定义GridView 主要是为了让 GridView在ScrollView中完全显示 解决两者之间的滑动冲突)
+			MySpannableStringBuilder ---(设置字体颜色大小 可以单独设置一段文字中的某个文字)
+		util---
+			DateUtils ---(时间工具类)
+			FileUtil ---(文件工具类)
+			MD5 ---(MD5码生成类 保存的图片的文件名)
+			StringUtils ---(String工具类)
+			UUIDGenerator ---(UUID 生成工具)

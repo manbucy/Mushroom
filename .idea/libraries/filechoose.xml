@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="filechoose">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mushroom/libs/filechoose.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

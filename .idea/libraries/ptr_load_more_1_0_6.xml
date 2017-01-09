@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ptr-load-more-1.0.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mushroom/build/intermediates/exploded-aar/in.srain.cube/ptr-load-more/1.0.6/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/mushroom/build/intermediates/exploded-aar/in.srain.cube/ptr-load-more/1.0.6/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Programme/Android/gradle/caches/modules-2/files-2.1/in.srain.cube/ptr-load-more/1.0.6/10f57bd5e6e2d14fd371f6a21f6c580609d437ad/ptr-load-more-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

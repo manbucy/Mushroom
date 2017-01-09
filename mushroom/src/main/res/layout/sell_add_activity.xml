@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SellAddActivity">
+
+    <include layout="@layout/include_headbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/divider" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    style="@style/sell_add_text"
+                    android:text="@string/sell_add_prodName" />
+
+                <EditText
+                    style="@style/sell_add_edit"
+                    android:hint="@string/sell_add_prodName_hint"
+                    android:id="@+id/sell_add_prodName">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    style="@style/sell_add_text"
+                    android:text="@string/sell_add_prodSpec" />
+
+                <EditText
+                    style="@style/sell_add_edit"
+                    android:hint="@string/sell_add_prodSpec_hint"
+                    android:id="@+id/sell_add_prodSpec">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    style="@style/sell_add_text"
+                    android:text="@string/sell_add_prodPrice" />
+
+                <EditText
+                    style="@style/sell_add_edit"
+                    android:inputType="number|numberDecimal"
+                    android:hint="@string/sell_add_prodPrice_hint"
+                    android:id="@+id/sell_add_prodPrice">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    style="@style/sell_add_text"
+                    android:text="@string/sell_add_prodNum" />
+
+                <EditText
+                    style="@style/sell_add_edit"
+                    android:inputType="number"
+                    android:hint="@string/sell_add_prodNum_hint"
+                    android:id="@+id/sell_add_Num">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" >
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    style="@style/sell_add_text"
+                    android:text="@string/sell_add_remark" />
+
+                <EditText
+                    style="@style/sell_add_edit"
+                    android:hint="@string/sell_add_remark_hint"
+                    android:id="@+id/sell_add_remark">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp" >
+
+                <TextView
+                    style="@style/sell_add_text"
+                    android:text="@string/sell_add_prodInfo" />
+
+                <EditText
+                    style="@style/sell_add_edit"
+                    android:hint="@string/sell_add_prodInfo_hint"
+                    android:inputType="textMultiLine"
+                    android:id="@+id/sell_add_prodInfo">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" >
+            </LinearLayout>
+
+
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/sell_add_img"
+                android:gravity="center"/>
+            
+            <com.redare.imagepicker.widget.ImagePickerView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/imagePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+            </com.redare.imagepicker.widget.ImagePickerView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/divider" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    style="@style/sell_add_text"
+                    android:text="@string/sell_add_prodSupport" />
+
+                <EditText
+                    style="@style/sell_add_edit"
+                    android:hint="@string/sell_add_prodSupport_hint"
+                    android:id="@+id/sell_add_Support">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    style="@style/sell_add_text"
+                    android:text="@string/sell_add_prodAddress" />
+
+                <TextView
+                    android:id="@+id/sell_add_prodAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="@string/sell_add_prodAddress_hint"
+                    android:textColor="@color/gray" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    style="@style/sell_add_text"
+                    android:text="@string/sell_add_phone" />
+
+                <EditText
+                    style="@style/sell_add_edit"
+                    android:hint="@string/sell_add_phone_hint"
+                    android:inputType="phone"
+                    android:id="@+id/sell_add_phone">
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/sell_add_btn_send"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_btn_press_selector_1"
+                android:text="@string/sell_add_btn_send"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_weight="1"
+        android:background="@color/divider" />
+
+    <LinearLayout
+        android:id="@+id/buttom_tab_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/buttom_tab_buy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/buttom_tab_img_buy"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/main_tab_icon_buyer_normal" />
+
+            <TextView
+                android:id="@+id/buttom_tab_txt_buy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="@string/buttom_tab_buyer"
+                android:textColor="@color/divider"
+                android:textSize="@dimen/buttom_tab_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttom_tab_sell"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/buttom_tab_img_sell"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/main_tab_icon_seller_normal" />
+
+            <TextView
+                android:id="@+id/buttom_tab_txt_sell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="@string/buttom_tab_seller"
+                android:textColor="@color/divider"
+                android:textSize="@dimen/buttom_tab_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttom_tab_origin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/buttom_tab_img_origin"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/main_tab_icon_origin_press" />
+
+            <TextView
+                android:id="@+id/buttom_tab_txt_origin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="@string/buttom_tab_origin"
+                android:textColor="@color/primary"
+                android:textSize="@dimen/buttom_tab_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttom_tab_find"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/buttom_tab_img_find"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/main_tab_icon_find_normal" />
+
+            <TextView
+                android:id="@+id/buttom_tab_txt_find"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="@string/buttom_tab_find"
+                android:textColor="@color/divider"
+                android:textSize="@dimen/buttom_tab_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttom_tab_managment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/buttom_tab_img_managment"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/main_tab_icon_management_normal" />
+
+            <TextView
+                android:id="@+id/buttom_tab_txt_managment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="@string/buttom_tab_management"
+                android:textColor="@color/divider"
+                android:textSize="@dimen/buttom_tab_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

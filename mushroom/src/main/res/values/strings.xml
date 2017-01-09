@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- test account -->
+    <string name="test_account_usernaem">manbu</string>
+    <string name="test_account_password">123456</string>
+    
+    <string name="city">选择市区</string>
+    <string name="province">选择省市</string>
+    <string name="district">选择县区</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">蘑菇园</string>
+    <string name="logo">图标</string>
+    <string name="login_view_head">登录界面的头像</string>
+    <string name="account">账    号</string>
+    <string name="account_hint">用户名/邮箱/手机号</string>
+    <string name="password">密    码</string>
+    <string name="new_password">新  密  码</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="new_password_hint">请输入新密码</string>
+    <string name="reset_password">重置密码</string>
+    <string name="psw_again">确认密码</string>
+    <string name="psw_again_hint">请再次输入密码</string>
+    <string name="phone">绑定手机</string>
+    <string name="phone_hint">用于找回密码</string>
+    <string name="vcode_hint">输入6位验证码</string>
+    <string name="send_vcode">发送验证码</string>
+    <string name="register">注册</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_findpsw">忘记密码</string>
+    <string name="btn_register">新用户</string>
+    <string name="username">用户名</string>
+    <string name="username_hint">用户名</string>
+    <string name="phone_number">手机号码</string>
+    <string name="phone_number_hint">请输入预留手机号码</string>
+    <string name="vcode">验  证  码</string>
+
+    <!-- buttom_tab -->
+    <string name="buttom_tab_buyer">我要买</string>
+    <string name="buttom_tab_seller">我要卖</string>
+    <string name="buttom_tab_origin">溯源</string>
+    <string name="buttom_tab_find">发现</string>
+    <string name="buttom_tab_management">我</string>
+    <string name="top_tab_search_hint">搜索产品 如：香菇 猴头菇</string>
+    <string name="top_tab_search">搜索</string>
+    <string name="top_tab_buy">我要买</string>
+
+    <!-- head_bar -->
+    <string name="headbar_back">返回</string>
+    <string name="headbar_text">登录</string>
+    <string name="headbar_next">下一步</string>
+
+    <!-- manegment -->
+    <string name="management_img_btn_card">我的名片</string>
+    <string name="management_img_btn_edit">编辑资料</string>
+    <string name="management_usernaem">点击登录</string>
+
+    <!-- origin -->
+    <string name="origin_icon">绿威</string>
+    <string name="origin_prod_name">产品名称：</string>
+    <string name="origin_prod_address">产品产地：</string>
+    <string name="origin_prod_life">生长周期：</string>
+    <string name="origin_prod_spec">产品规格：</string>
+    <string name="origin_prod_moreinfo">更多信息：</string>
+    <string name="origin_scan">点我扫一扫</string>
+
+    <!-- product_item -->
+    <string name="prod_img">产品预览图</string>
+    <string name="prod_name">平菇</string>
+    <string name="prod_address">安徽淮南潘集区 安徽淮南潘集区</string>
+    <string name="prod_support">龙傲天</string>
+    <string name="prod_remark">菌盖直径15~20cm 现货 菌盖直径15~20cm 现货 菌盖直径15~20cm 现货</string>
+    <string name="prod_price">9999.00</string>
+    <string name="prod_price_unit">元/斤</string>
+    <string name="prod_time"> </string>
+
+    <!-- managment_item -->
+    <string name="item_name">我的余额</string>
+    <string name="item_info">999$</string>
+    <string name="item_img">img_next</string>
+    <string name="management_item_img">img_next</string>
+    <string name="management_item_balance_name">我的余额</string>
+    <string name="management_item_balance_info">999$</string>
+    <string name="management_item_plastic_name">我的银行卡</string>
+    <string name="management_item_ncetification_name">实名认证</string>
+    <string name="management_item_ccetification_name">企业认证</string>
+    <string name="management_item_collection_name">我的收藏</string>
+    <string name="management_item_collection_info">12</string>
+    <string name="management_item_orders_name">我的订单</string>
+    <string name="management_item_address_name">收货地址管理</string>
+    <string name="management_item_appraise_name">我的评价</string>
+    <string name="management_item_appraise_info">6</string>
+    <string name="management_item_help_name">帮助中心</string>
+    <string name="management_item_phone_name">客服电话</string>
+    <string name="management_item_phone_info">12345678910</string>
+    <string name="management_item_feedback_name">意见反馈</string>
+    <string name="management_item_about_name">关于</string>
+    <string name="management_btn_exit">退出</string>
+
+    <drawable name="management_item_normal">#FFFFFF</drawable>
+    <drawable name="management_item_press">#e1e1e1</drawable>
+
+    <!-- sell -->
+    <string name="sell_shop_name">漫步的小店</string>
+    <string name="sell_shop_rate">好评率</string>
+    <string name="sell_shop_rate_num">98%</string>
+    <string name="sell_shop_create">开店时间：</string>
+    <string name="sell_shop_create_num">2015&#8211;09&#8211;13</string>
+    <string name="sell_shop_admin">店铺管理</string>
+    <string name="sell_shop_count">店铺统计</string>
+    <string name="sell_shop_goods">我的货物</string>
+    <string name="sell_shop_orders">我的订单</string>
+    <string name="sell_shop_message">有人买货</string>
+    <string name="sell_shop_logistical">我的物流</string>
+    <string name="sell_shop_support">供应大厅</string>
+    <string name="sell_shop_purchaser">采购大厅</string>
+    <string name="sell_shop_set">我的设置</string>
+    <string name="sell_shop_bullish">发布行情</string>
+    <string name="sell_shop_count_goods">已上架商品</string>
+    <string name="sell_shop_count_goods_num">13</string>
+    <string name="sell_shop_count_buy">累计已卖出</string>
+    <string name="sell_shop_count_buy_num">50</string>
+    <string name="sell_shop_count_customer">最近客流量</string>
+    <string name="sell_shop_count_customer_num">90</string>
+    <string name="sell_shop_btn_send">发布货品</string>
+
+    <!-- sell_prod_add -->
+    <string name="sell_add_prodName">名称</string>
+    <string name="sell_add_prodName_hint">请输入货品名称</string>
+    <string name="sell_add_prodSpec">规格</string>
+    <string name="sell_add_prodSpec_hint">请输入货品规格</string>
+    <string name="sell_add_prodPrice">价格</string>
+    <string name="sell_add_prodPrice_hint">请输入货品价格</string>
+    <string name="sell_add_prodNum">供货量</string>
+    <string name="sell_add_prodNum_hint">请输入货品供货量</string>
+    <string name="sell_add_prodAddress">发货地址</string>
+    <string name="sell_add_prodAddress_hint">请选择货品发货地址</string>
+    <string name="sell_add_prodInfo">详细介绍</string>
+    <string name="sell_add_prodInfo_hint">请输入货品详细介绍</string>
+    <string name="sell_add_prodSupport">供应人</string>
+    <string name="sell_add_prodSupport_hint">请输入供应人姓名</string>
+    <string name="sell_add_phone">联系电话</string>
+    <string name="sell_add_phone_hint">请输入联系电话</string>
+    <string name="sell_add_remark">重要备注</string>
+    <string name="sell_add_remark_hint">请输入货品备注</string>
+    <string name="sell_add_prodImg">图片</string>
+    <string name="sell_add_btn_send">发布</string>
+    <string name="sell_add_img">在下面添加几张货物的图片吧</string>
+
+    <string name="test_info">最近在开发项目中遇到一个问题，布局高度在某些国产酷派小
+        屏幕手机上高度不够全部显示，于是使用了ScrollView嵌套LinearLayout，但问题又出现了，
+        在大屏幕手机如三星note3手机上下面会留白，问题的解决办法是在第一层LinearLayout里面嵌套多
+        个LinearLayout，最重要的是将ScrollView中android:fillViewport设置为true。</string>
+</resources>
